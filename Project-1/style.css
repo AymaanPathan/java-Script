@@ -1,0 +1,63 @@
+body {
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  height: 100vh;
+}
+
+.div-1 {
+  height: 100px;
+  width: 100px;
+  background-color: aliceblue;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.div-2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(27, 131, 223);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.div-3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(254, 94, 13);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.div-4 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.div-1:hover {
+  transform: scaleY(1.1);
+}
+
+.div-2:hover {
+  transform: scaleY(1.1);
+}
+
+.div-3:hover {
+  transform: scaleY(1.1);
+}
+.div-4:hover {
+  transform: scaleY(1.1);
+}
+
+p {
+  text-align: center;
+}

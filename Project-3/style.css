@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(59, 58, 58);
+}
+
+h2 {
+  color: rgb(196, 148, 148);
+  font-weight: 700;
+}
+
+.clock {
+  background-color: bisque;
+  padding: 12px;
+  border-radius: 24px;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

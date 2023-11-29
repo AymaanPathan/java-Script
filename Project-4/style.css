@@ -1,0 +1,4 @@
+.game-over {
+  user-select: none;
+  cursor: not-allowed;
+}

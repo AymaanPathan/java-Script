@@ -1,0 +1,9 @@
+body {
+  background-color: antiquewhite;
+}
+
+.form-div {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
