@@ -1,0 +1,108 @@
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%);
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+  margin-right: 24px;
+}
+
+.box-div {
+  min-height: 220px;
+  background: rgb(161, 221, 222);
+  background: linear-gradient(
+    0deg,
+    rgba(161, 221, 222, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  width: 400px;
+  border-radius: 14px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  /* margin-left: 14px; */
+  /* gap: 18px; */
+  justify-content: center;
+  margin-left: 18px;
+}
+
+.add-todo {
+  width: 80%;
+  border-radius: 20px;
+  height: 34px;
+  border: none;
+  text-align: center;
+}
+
+.add-todo:focus {
+  outline: none;
+}
+
+.add-btn {
+  position: relative;
+  right: 2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 20%;
+  height: 34px;
+  border: none;
+  background-color: aqua;
+}
+
+.add-btn:active {
+  transform: scaleX(1.1);
+}
+
+ul li {
+  list-style: none;
+  padding: 14px;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+li::after {
+  right: 23rem;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  background-size: cover;
+  cursor: pointer;
+  background-image: url(asstes/oval.png);
+  margin-top: 2.5px;
+}
+
+li.checked {
+  text-decoration: line-through;
+}
+
+li.checked::before {
+  right: 23rem;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  background-size: cover;
+  cursor: pointer;
+  background-image: url(asstes/check-mark.png);
+  margin-top: 2.5px;
+}
+
+ul li span {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  color: black;
+}
