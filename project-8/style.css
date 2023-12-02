@@ -1,0 +1,96 @@
+* {
+  font-family: "poopins", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background: rgb(161, 221, 222);
+  background: linear-gradient(
+    0deg,
+    rgba(161, 221, 222, 1) 0%,
+    rgba(161, 221, 222, 1) 0%
+  );
+}
+
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+
+.copy-img {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  transition: all 0.3s;
+}
+
+.copy-img:hover {
+  transform: translateY(-1.1px);
+}
+
+.copy-img:active {
+  transform: translateY(1.1px);
+}
+
+.display {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #eff7f6;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  gap: 12px;
+  padding: 26px 20px;
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 42px;
+  color: rgb(75, 75, 65);
+}
+
+.container h1 span {
+  border-bottom: 3px solid rgb(139, 139, 73);
+  color: rgb(139, 139, 73);
+  padding-bottom: 7px;
+}
+
+.display input {
+  outline: 0;
+  border: none;
+  width: 74%;
+  height: 34px;
+  border-radius: 12px;
+  background: #eff7f6;
+  font-size: 26px;
+}
+
+.container button {
+  padding: 8px;
+  cursor: pointer;
+  width: 112px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 12px;
+  border: none;
+  background: rgb(197, 197, 255);
+  transition: all 0.3s;
+}
+
+.container button:hover {
+  transform: translateY(-1.1px);
+}
+
+.container button:active {
+  transform: translateY(1.1px);
+}
+
+button img {
+  width: 24px;
+  height: 24px;
+}
