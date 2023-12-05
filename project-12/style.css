@@ -1,0 +1,93 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgb(243, 235, 238) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 96vh;
+}
+
+.qr-box {
+  border-radius: 8px;
+  min-height: 180px;
+  width: 420px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 249, 251, 1) 65%,
+    rgba(233, 239, 246, 1) 100%
+  );
+  box-shadow: 5px 5px 8px 4px;
+}
+
+.qr-box h3 {
+  margin-left: 32px;
+  font-size: 24px;
+  color: rgb(13, 13, 13);
+}
+
+.qr-box input {
+  margin-left: 32px;
+  width: 80%;
+  height: 34px;
+}
+
+.qr-box button {
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 36px;
+  width: 80%;
+  height: 34px;
+  background: rgb(72, 72, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(72, 72, 247, 1) 14%,
+    rgba(10, 76, 255, 1) 100%
+  );
+  color: white;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.qr-box button:active {
+  transform: translateY(1.2px);
+}
+
+.qr-img-div {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
