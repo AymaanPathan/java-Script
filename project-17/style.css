@@ -1,0 +1,39 @@
+body {
+  background-color: #313131;
+  color: #f1f1f1;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+input {
+  width: 90%;
+  padding: 20px;
+  border-radius: 12px;
+  color: red;
+  font-size: 32px;
+}
+
+.submit {
+  margin-left: 20px;
+  padding: 20px;
+  width: 90%;
+  margin-top: 14px;
+  border-radius: 12px;
+  background-color: rgb(78, 75, 70);
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}

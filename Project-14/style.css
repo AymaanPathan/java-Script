@@ -1,0 +1,41 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background: rgb(241, 83, 83);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background: rgb(244, 244, 154);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.box-3 {
+  width: 100px;
+  height: 100px;
+  background: rgb(43, 40, 40);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.box-4 {
+  width: 100px;
+  height: 100px;
+  background: rgb(145, 145, 247);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+}

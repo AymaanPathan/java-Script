@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.result {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.summary {
+  margin-top: 15px;
+  text-align: center;
+}
