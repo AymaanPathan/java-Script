@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;box-sizing: border-box;
+}
+
+header {
+  background-color: bisque;
+}
+
+nav {
+  padding: 36px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+  padding: 0 24px;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  justify-content: center;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav-link {
+  list-style: none;
+  font-size: 24px;
+}
+
+
+.brand-name {
+  font-size: 36px;
+  color: black;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  background-color: black;
+  width:25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+}
+
+@media (max-width:768px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: rotate(-40deg);
+  }
+  .hamburger.hamburger.active  .bar:nth-child(2){
+    transform: scaleY(0);
+  }
+  .hamburger.hamburger.active .bar:nth-child(3){
+    transform: rotate(-40deg);
+  }
+
+  .nav-menu{
+    position: relative;
+    left:-100%;
+    top:70px;
+    gap: 0;
+    width: 100%;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    background-color: bisque;
+    color: white;
+    text-align: center;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+}

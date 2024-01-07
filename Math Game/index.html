@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header><h1>Math Game</h1></header>
+        <!-- Splash Page -->
+        <div class="card" id="card">
+            <div class="selection-container">
+                <form id="start-form">
+                    <!-- 10 Questions -->
+                    <div class="radio-container">
+                    <label for="value-10">10 Question</label>
+                    <input type="radio" id="value-10" name="questions">
+                    <span id="best-score">Best Score</span>
+                    <span id="best-score-value">0:0s</span>
+                </div>
+                    <!-- 25 Question -->
+                    <div class="radio-container">
+                        <label for="value-25">25 Question</label>
+                        <input type="radio" id="value-25" name="questions">
+                        <span class="best-score">
+                        <span id="score">Best Score</span>
+                        <span id="score-value">0:0s</span>
+                        </span>
+                    </div>
+                    <!-- 50 Questions -->
+                    <div class="radio-container">
+                        <label for="value-50">50 Question</label>
+                        <input type="radio" id="value-50" name="questions">
+                        <span id="best-score">Best Score</span>
+                        <span id="best-score-value">0:0s</span>
+                    </div>
+                    <!-- 99 Questions -->
+                    <div class="radio-container">
+                        <label for="value-99">99 Question</label>
+                        <input type="radio" id="value-99" name="questions">
+                        <span id="best-score">Best Score</span>
+                        <span id="best-score-value">0:0s</span>
+                    </div>
+                    <div class="btn-div">
+                        <button class="strt-btn" type="submit">Start Now</button>
+                    </div>
+                </form>
+                <!-- Start Btn -->
+            </div>
+        </div>
+        <!-- Count Down Page -->
+        <div class="countdown-page" id="countdown-page" hidden>
+            <h1 class="countdown">3</h1>
+            <!-- <h1 class="caption"></h1> -->
+        </div>
+    </div>
+
+  
+
+    <script src="script.js"></script>
+</body>
+</html>

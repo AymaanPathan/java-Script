@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel {
+    height: 642px;
+    justify-content: center;
+    width: 120px;
+    border-radius: 20px;
+    margin: 2px;
+    transition: 0.7s ease-out;
+    cursor: pointer;
+}
+
+.panel h3 {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.panel.active {
+   width: 514px;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: sen,'sans-serif';
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 236, 160);
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(230, 218, 165);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 2px 4px 4px rgb(0,0,0,0.5);  
+ }
+
+ /* FORM */
+
+ form {
+  width: 90%;
+ }
+
+ .form-group {
+  height: 65px;
+ }
+
+ label {
+  position: relative;
+  bottom: 1px;
+ }
+
+ input {
+  width: 100%;
+  height: 34px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid rgb(236, 189, 88);
+  padding-left: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+ }
+
+ input:valid {
+  border :2px solid green 
+ }
+
+ input:invalid {
+  border :2px solid red 
+ }
+
+ button {
+  background-color: rgb(238, 238, 206);
+  color: black;
+  border-radius: 12px;
+  height: 34px;
+  width: 100%;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: sen,'sans-serif';
+  transition: all 0.4s;
+  border: none;
+  border: 2px solid grey;
+ }
+
+
+ button:hover {
+  filter: brightness(110%);
+ }
+
+ button:active {
+  box-shadow: 3px 7px 1px 1px;
+ }
+
+ .message-container {
+  border: 1px solid yellow;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+ }

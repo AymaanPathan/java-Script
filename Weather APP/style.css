@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Oswald&family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 4%;
+    background-image: url(imgs/body-img.jpg);
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    background-color: black;   
+    background-image: linear-gradient(to right top, #3f80e2, #0094cd, #009aa1, #5d9a7d, #8c9676);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+input[type='text'] {
+    width: 80%;
+    height: 34px;
+    border-radius: 22px;
+    border: none;
+    text-align: center;
+}
+
+input:focus {
+   outline: none;
+}
+
+.search-img {
+    width: 44px;
+    height: 44px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.search-img:active{
+    transform: scale(0.7);
+} 
+
+.content-div {
+
+    color: white;
+    letter-spacing: 2px;
+    font-family:Oswald,"sans serif";
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:24px
+}
+
+.weather-img {
+    width: 120px;
+    height: 120px;
+}
+
+.humidity-img {
+    width: 40px;
+    height: 40px;
+}
+
+.temp-info-div {
+    margin-left: 22px;
+    display: flex;
+    margin-top: 42px;
+}
+
+.temp-info-title-1{
+    color: white;
+    position: relative;
+    top:17px;
+    right: 30px;
+    font-size: 20px;
+}
+
+.info-1{
+    margin-left: 22px;
+    display: flex;
+    margin-top: 42px;
+    gap:4px
+}
+
+.wind-img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.temp-info-title-2{
+    position: relative;
+    top:17px;
+    right: 69px;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    letter-spacing: 1.1px;
+}
+
+.wind-info {
+    color: rgb(232, 230, 228);
+    font-size: 16px;
+}
+
+.humidity-info {
+    color: white;
+}
